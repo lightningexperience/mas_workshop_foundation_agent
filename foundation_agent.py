@@ -31,7 +31,7 @@ def main():
     system_prompt = st.sidebar.text_area("System Prompt:", value="You are a helpful assistant.")
     model = st.sidebar.selectbox(
         "Choose Model:",
-        ["llama-3.3-70b-versatile", "llama3-8b-8192", "mixtral-8x7b-32768"],
+        ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"],
     )
 
     # User input
