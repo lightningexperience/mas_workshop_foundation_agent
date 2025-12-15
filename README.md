@@ -185,6 +185,8 @@ README.md
 
 <hr>
 
+<h1> Files Needed for Deployment on Heroku</h1>
+All files are already  included in the GitHub repo.
 <h2>Procfile (already included)</h2>
 
 <pre><code>web: streamlit run foundation_agent.py --server.port=$PORT --server.address=0.0.0.0</code></pre>
