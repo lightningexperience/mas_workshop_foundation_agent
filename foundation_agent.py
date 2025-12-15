@@ -27,7 +27,7 @@ def main():
     st.write("A minimal LLM chatbot using Groq. No memory, no framework, raw LLM behavior.")
 
     # Sidebar setup
-    st.sidebar.title("Customize")
+    st.sidebar.title("Customize Your Foundation Agent")
     system_prompt = st.sidebar.text_area("System Prompt:", value="You are a helpful assistant.")
     model = st.sidebar.selectbox(
         "Choose Model:",
